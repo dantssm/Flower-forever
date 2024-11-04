@@ -1,0 +1,24 @@
+# GET http://localhost:8080/api/v1/user
+
+# ###
+# POST http://localhost:8080/api/v1/user
+# Content-Type: application/json
+
+# {
+#     "email": "email@gmail12",
+#     "dob": "2000-01-15"
+# }
+
+# GET http://localhost:8080/api/v1/user/email?email=email@gmail12
+
+GET http://localhost:8080/api/v1/flower
+
+###
+POST http://localhost:8080/api/v1/flower
+Content-Type: application/json
+
+{
+  "name": "Iris",
+  "color": "blue",
+  "price": 12
+}
